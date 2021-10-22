@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tbid"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="id"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <EditText
+        android:id="@+id/tbkode"
+        android:layout_width="410dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Kode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbid"
+        tools:ems="10" />
+
+    <EditText
+        android:id="@+id/tbnama"
+        android:layout_width="410dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbkode" />
+
+    <EditText
+        android:id="@+id/tbhari"
+        android:layout_width="407dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hari"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbnama" />
+
+    <EditText
+        android:id="@+id/tbsesi"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sesi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbhari" />
+
+    <EditText
+        android:id="@+id/tbsks"
+        android:layout_width="411dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbsesi" />
+
+    <EditText
+        android:id="@+id/tbnim"
+        android:layout_width="413dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NIM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbsks" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@+id/tbnim"
+        tools:layout_editor_absoluteX="-1dp" />
